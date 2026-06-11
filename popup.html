@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <!-- Information about the page -->
+    <title>YouTube Fitness</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+    <h1>YouTube Fitness</h1>
+    <p>
+        Level:
+        <span id="level">1</span>
+    </p>
+
+    <!--
+    span is an inline container.
+    id="level" lets JavaScript find this element later.
+    -->
+    <p>
+        Pushups:
+        <span id="pushups">0</span>
+    </p>
+    <button id="addPushup">
+        +1 Pushup
+    </button>
+    <!--
+    JavaScript will look for this button
+    and react when it gets clicked.
+    -->
+    <script src="popup.js"></script>
+    <!-- Loads JavaScript AFTER the page is created -->
+</body>
+
+</html>

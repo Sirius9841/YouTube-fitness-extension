@@ -1,0 +1,19 @@
+body {
+    /* The Width of popup window */
+    width: 250px;
+    /* Space between edge and content */
+    padding: 15px;
+    /* Font for everything inside body */
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+button {
+    /* Inner spacing */
+    padding: 8px;
+    /* Changes mouse cursor */
+    cursor: pointer;
+}
